@@ -48,7 +48,7 @@ formEx02.addEventListener("submit", function (evento) {
         //invalido 
         bebida.classList.add("is-invalid");
         bebida.classList.remove("is-valid");
-    }else {
+    } else {
         //valido
         bebida.classList.add("is-valid");
         bebida.classList.remove("is-invalid");
@@ -64,5 +64,5 @@ formEx02.addEventListener("submit", function (evento) {
     console.log("cliente: " + cliente.value);
     console.log("pizza: " + pizza.value);
     console.log("tamanho: " + tamanho.value);
-    console.log("bebida: " + bebeida.value);
+    console.log("bebida: " + bebida.value);
 });
